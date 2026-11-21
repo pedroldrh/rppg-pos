@@ -1,0 +1,523 @@
+{
+  "sessions": [
+    {
+      "session": "session_20260408_222304",
+      "condition": "normal",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": null,
+      "pos_diagnostics": null,
+      "detection_rate": null,
+      "preprocess_stats": null,
+      "was_cached": false,
+      "success": false,
+      "error": "Missing files: windows.csv"
+    },
+    {
+      "session": "session_20260408_222437",
+      "condition": "normal",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 7.17,
+        "rmse": 13.28,
+        "median_ae": 3.1,
+        "pearson_r": 0.409,
+        "pearson_p": 0.274369,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 9,
+        "n_skipped_gt_invalid": 2,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 140.22,
+        "output_mean_brightness": 149.26,
+        "frame_count": 1388,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_222621",
+      "condition": "normal",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 16.69,
+        "rmse": 24.88,
+        "median_ae": 5.9,
+        "pearson_r": -0.0512,
+        "pearson_p": 0.888233,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 10,
+        "n_skipped_gt_invalid": 1,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 146.0,
+        "output_mean_brightness": 146.0,
+        "frame_count": 1388,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_222743",
+      "condition": "normal",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 12.05,
+        "rmse": 18.06,
+        "median_ae": 7.55,
+        "pearson_r": 0.1822,
+        "pearson_p": 0.614312,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 10,
+        "n_skipped_gt_invalid": 1,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 144.85,
+        "output_mean_brightness": 144.85,
+        "frame_count": 1388,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_223019",
+      "condition": "low_light",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 23.81,
+        "rmse": 37.66,
+        "median_ae": 11.4,
+        "pearson_r": -0.1428,
+        "pearson_p": 0.675349,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 11,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1675,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1719,
+        "window_len_frames": 45
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 127.76,
+        "output_mean_brightness": 153.26,
+        "frame_count": 1719,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_223209",
+      "condition": "low_light",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 6.17,
+        "rmse": 9.33,
+        "median_ae": 3.4,
+        "pearson_r": 0.1181,
+        "pearson_p": 0.729442,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 11,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1645,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1689,
+        "window_len_frames": 45
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 129.39,
+        "output_mean_brightness": 154.66,
+        "frame_count": 1689,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_223744",
+      "condition": "low_light",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 7.14,
+        "rmse": 9.87,
+        "median_ae": 4.6,
+        "pearson_r": 0.4523,
+        "pearson_p": 0.221542,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 9,
+        "n_skipped_gt_invalid": 2,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1630,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1673,
+        "window_len_frames": 44
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 131.48,
+        "output_mean_brightness": 156.55,
+        "frame_count": 1673,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_224641",
+      "condition": "low_light",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 13.69,
+        "rmse": 19.58,
+        "median_ae": 8.9,
+        "pearson_r": -0.6774,
+        "pearson_p": 0.022029,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 11,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1692,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1737,
+        "window_len_frames": 46
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 132.92,
+        "output_mean_brightness": 156.46,
+        "frame_count": 1737,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_224818",
+      "condition": "low_light",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 22.55,
+        "rmse": 35.68,
+        "median_ae": 4.85,
+        "pearson_r": 0.4504,
+        "pearson_p": 0.191452,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 10,
+        "n_skipped_gt_invalid": 1,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1642,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1685,
+        "window_len_frames": 44
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 132.36,
+        "output_mean_brightness": 155.97,
+        "frame_count": 1685,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_225001",
+      "condition": "low_light",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 8.59,
+        "rmse": 12.57,
+        "median_ae": 5.5,
+        "pearson_r": -0.197,
+        "pearson_p": 0.561529,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 11,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1613,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1656,
+        "window_len_frames": 44
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 133.98,
+        "output_mean_brightness": 157.59,
+        "frame_count": 1656,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_225204",
+      "condition": "normal",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 7.17,
+        "rmse": 12.15,
+        "median_ae": 3.0,
+        "pearson_r": -0.27,
+        "pearson_p": 0.48228,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 9,
+        "n_skipped_gt_invalid": 2,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 145.95,
+        "output_mean_brightness": 145.95,
+        "frame_count": 1388,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_225401",
+      "condition": "normal",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 22.74,
+        "rmse": 43.31,
+        "median_ae": 1.5,
+        "pearson_r": -0.3612,
+        "pearson_p": 0.275112,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 11,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 146.11,
+        "output_mean_brightness": 146.11,
+        "frame_count": 1388,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_225523",
+      "condition": "normal",
+      "region": "forehead",
+      "pipeline": "adaptive",
+      "metrics": {
+        "mae": 17.19,
+        "rmse": 26.69,
+        "median_ae": 5.0,
+        "pearson_r": -0.0955,
+        "pearson_p": 0.806982,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 9,
+        "n_skipped_gt_invalid": 2,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "preprocess_stats": {
+        "input_mean_brightness": 146.18,
+        "output_mean_brightness": 146.18,
+        "frame_count": 1388,
+        "fps": 30.0,
+        "resolution": [
+          640,
+          480
+        ],
+        "pipeline": "adaptive"
+      },
+      "was_cached": false,
+      "success": true,
+      "error": null
+    }
+  ],
+  "pipeline_summary": {
+    "adaptive": {
+      "n_sessions": 13,
+      "n_successful": 12,
+      "n_failed": 1,
+      "total_mutually_valid_windows": 121,
+      "mae_mean": 13.75,
+      "mae_median": 12.87,
+      "rmse_mean": 21.92,
+      "rmse_median": 18.82,
+      "median_ae_mean": 5.39,
+      "median_ae_median": 4.92
+    }
+  }
+}

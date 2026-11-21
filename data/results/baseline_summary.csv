@@ -1,0 +1,14 @@
+session,condition,region,mae,rmse,median_ae,pearson_r,n_mutually_valid_windows,detection_rate,pos_processed_windows,pos_skipped_windows,success,error
+session_20260408_222304,,forehead,,,,,0,,0,0,False,Missing files: windows.csv
+session_20260408_222437,normal,forehead,2.01,2.3,2.2,0.7742,7,1.0,1353,0,True,
+session_20260408_222621,normal,forehead,6.06,9.35,3.15,0.1474,10,1.0,1353,0,True,
+session_20260408_222743,normal,forehead,9.5,11.94,11.2,-0.1636,9,1.0,1353,0,True,
+session_20260408_223019,low_light,forehead,5.91,6.86,5.5,0.7322,11,1.0,1675,0,True,
+session_20260408_223209,low_light,forehead,6.52,9.68,2.9,-0.2286,11,1.0,1645,0,True,
+session_20260408_223744,low_light,forehead,7.4,9.94,4.7,0.3514,9,1.0,1630,0,True,
+session_20260408_224641,low_light,forehead,4.44,5.56,5.1,0.6543,11,1.0,1692,0,True,
+session_20260408_224818,low_light,forehead,6.23,8.05,4.0,0.209,10,1.0,1642,0,True,
+session_20260408_225001,low_light,forehead,3.29,4.3,2.05,0.1851,10,1.0,1613,0,True,
+session_20260408_225204,normal,forehead,3.5,5.09,2.3,0.4306,9,1.0,1353,0,True,
+session_20260408_225401,normal,forehead,6.21,9.36,1.5,-0.3739,11,1.0,1353,0,True,
+session_20260408_225523,normal,forehead,4.27,5.2,4.0,0.0235,9,1.0,1353,0,True,

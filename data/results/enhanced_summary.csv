@@ -1,0 +1,14 @@
+session,condition,region,pipeline,baseline_mae,enhanced_mae,mae_delta,mae_pct_improvement,baseline_rmse,enhanced_rmse,rmse_delta,median_ae,pearson_r,n_mutually_valid_windows,detection_rate,pos_processed_windows,pos_skipped_windows,was_cached,success,error
+session_20260408_222304,normal,forehead,adaptive,,,,,,,,,,0,,0,0,False,False,Missing files: windows.csv
+session_20260408_222437,normal,forehead,adaptive,9.14,7.17,-1.97,21.6,16.75,13.28,-3.47,3.1,0.409,9,1.0,1353,0,False,True,
+session_20260408_222621,normal,forehead,adaptive,6.06,16.69,10.63,-175.4,9.35,24.88,15.53,5.9,-0.0512,10,1.0,1353,0,False,True,
+session_20260408_222743,normal,forehead,adaptive,14.87,12.05,-2.82,19.0,20.68,18.06,-2.62,7.55,0.1822,10,1.0,1353,0,False,True,
+session_20260408_223019,low_light,forehead,adaptive,7.92,23.81,15.89,-200.6,10.65,37.66,27.01,11.4,-0.1428,11,1.0,1675,0,False,True,
+session_20260408_223209,low_light,forehead,adaptive,6.52,6.17,-0.35,5.4,9.68,9.33,-0.35,3.4,0.1181,11,1.0,1645,0,False,True,
+session_20260408_223744,low_light,forehead,adaptive,33.17,7.14,-26.03,78.5,48.14,9.87,-38.27,4.6,0.4523,9,1.0,1630,0,False,True,
+session_20260408_224641,low_light,forehead,adaptive,6.82,13.69,6.87,-100.7,12.05,19.58,7.53,8.9,-0.6774,11,1.0,1692,0,False,True,
+session_20260408_224818,low_light,forehead,adaptive,8.81,22.55,13.74,-156.0,13.16,35.68,22.52,4.85,0.4504,10,1.0,1642,0,False,True,
+session_20260408_225001,low_light,forehead,adaptive,11.96,8.59,-3.37,28.2,18.39,12.57,-5.82,5.5,-0.197,11,1.0,1613,0,False,True,
+session_20260408_225204,normal,forehead,adaptive,7.17,7.17,0.0,0.0,12.15,12.15,0.0,3.0,-0.27,9,1.0,1353,0,False,True,
+session_20260408_225401,normal,forehead,adaptive,6.21,22.74,16.53,-266.2,9.36,43.31,33.95,1.5,-0.3612,11,1.0,1353,0,False,True,
+session_20260408_225523,normal,forehead,adaptive,20.76,17.19,-3.57,17.2,29.37,26.69,-2.68,5.0,-0.0955,9,1.0,1353,0,False,True,

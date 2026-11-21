@@ -1,0 +1,13 @@
+Circadify rPPG — Plots Summary
+========================================
+
+Plots generated: 5
+  mae_by_pipeline_low_light: OK
+  mae_distribution_by_pipeline: OK
+  mae_best_vs_baseline_per_session: OK
+  bland_altman_best_pipeline: SKIPPED
+  baseline_condition_comparison: OK
+
+Sessions with valid results: 12
+Pipelines evaluated: adaptive
+Best pipeline (lowest mean low-light MAE): adaptive (13.66)

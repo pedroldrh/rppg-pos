@@ -1,0 +1,12 @@
+data/raw/
+data/processed/
+data/export.xml
+data/*.xml
+data/results/report*.html
+__pycache__/
+*.pyc
+.env
+*.avi
+*.mp4
+*.mov
+.venv/

@@ -1,0 +1,389 @@
+{
+  "sessions": [
+    {
+      "session": "session_20260408_222304",
+      "condition": null,
+      "region": "forehead",
+      "metrics": null,
+      "pos_diagnostics": null,
+      "detection_rate": null,
+      "intermediate_paths": {},
+      "success": false,
+      "error": "Missing files: windows.csv"
+    },
+    {
+      "session": "session_20260408_222437",
+      "condition": "normal",
+      "region": "forehead",
+      "metrics": {
+        "mae": 2.01,
+        "rmse": 2.3,
+        "median_ae": 2.2,
+        "pearson_r": 0.7742,
+        "pearson_p": 0.041033,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 7,
+        "n_skipped_gt_invalid": 2,
+        "n_skipped_est_invalid": 2,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_222621",
+      "condition": "normal",
+      "region": "forehead",
+      "metrics": {
+        "mae": 6.06,
+        "rmse": 9.35,
+        "median_ae": 3.15,
+        "pearson_r": 0.1474,
+        "pearson_p": 0.684515,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 10,
+        "n_skipped_gt_invalid": 1,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_222743",
+      "condition": "normal",
+      "region": "forehead",
+      "metrics": {
+        "mae": 9.5,
+        "rmse": 11.94,
+        "median_ae": 11.2,
+        "pearson_r": -0.1636,
+        "pearson_p": 0.673991,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 9,
+        "n_skipped_gt_invalid": 1,
+        "n_skipped_est_invalid": 1,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_223019",
+      "condition": "low_light",
+      "region": "forehead",
+      "metrics": {
+        "mae": 5.91,
+        "rmse": 6.86,
+        "median_ae": 5.5,
+        "pearson_r": 0.7322,
+        "pearson_p": 0.010406,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 11,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1675,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1719,
+        "window_len_frames": 45
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_223209",
+      "condition": "low_light",
+      "region": "forehead",
+      "metrics": {
+        "mae": 6.52,
+        "rmse": 9.68,
+        "median_ae": 2.9,
+        "pearson_r": -0.2286,
+        "pearson_p": 0.499021,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 11,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1645,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1689,
+        "window_len_frames": 45
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_223744",
+      "condition": "low_light",
+      "region": "forehead",
+      "metrics": {
+        "mae": 7.4,
+        "rmse": 9.94,
+        "median_ae": 4.7,
+        "pearson_r": 0.3514,
+        "pearson_p": 0.353753,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 9,
+        "n_skipped_gt_invalid": 2,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1630,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1673,
+        "window_len_frames": 44
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_224641",
+      "condition": "low_light",
+      "region": "forehead",
+      "metrics": {
+        "mae": 4.44,
+        "rmse": 5.56,
+        "median_ae": 5.1,
+        "pearson_r": 0.6543,
+        "pearson_p": 0.028958,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 11,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1692,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1737,
+        "window_len_frames": 46
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_224818",
+      "condition": "low_light",
+      "region": "forehead",
+      "metrics": {
+        "mae": 6.23,
+        "rmse": 8.05,
+        "median_ae": 4.0,
+        "pearson_r": 0.209,
+        "pearson_p": 0.562337,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 10,
+        "n_skipped_gt_invalid": 1,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1642,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1685,
+        "window_len_frames": 44
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_225001",
+      "condition": "low_light",
+      "region": "forehead",
+      "metrics": {
+        "mae": 3.29,
+        "rmse": 4.3,
+        "median_ae": 2.05,
+        "pearson_r": 0.1851,
+        "pearson_p": 0.608721,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 10,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 1,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1613,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1656,
+        "window_len_frames": 44
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_225204",
+      "condition": "normal",
+      "region": "forehead",
+      "metrics": {
+        "mae": 3.5,
+        "rmse": 5.09,
+        "median_ae": 2.3,
+        "pearson_r": 0.4306,
+        "pearson_p": 0.247222,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 9,
+        "n_skipped_gt_invalid": 2,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_225401",
+      "condition": "normal",
+      "region": "forehead",
+      "metrics": {
+        "mae": 6.21,
+        "rmse": 9.36,
+        "median_ae": 1.5,
+        "pearson_r": -0.3739,
+        "pearson_p": 0.257299,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 11,
+        "n_skipped_gt_invalid": 0,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    },
+    {
+      "session": "session_20260408_225523",
+      "condition": "normal",
+      "region": "forehead",
+      "metrics": {
+        "mae": 4.27,
+        "rmse": 5.2,
+        "median_ae": 4.0,
+        "pearson_r": 0.0235,
+        "pearson_p": 0.952241,
+        "n_total_windows": 11,
+        "n_mutually_valid_windows": 9,
+        "n_skipped_gt_invalid": 2,
+        "n_skipped_est_invalid": 0,
+        "n_skipped_missing_values": 0
+      },
+      "pos_diagnostics": {
+        "processed_windows": 1353,
+        "skipped_nan": 0,
+        "skipped_unstable": 0,
+        "nan_output_frames": 0,
+        "total_frames": 1388,
+        "window_len_frames": 36
+      },
+      "detection_rate": 1.0,
+      "intermediate_paths": {},
+      "success": true,
+      "error": null
+    }
+  ],
+  "summary": {
+    "normal": {
+      "n_sessions": 6,
+      "total_mutually_valid_windows": 55,
+      "mae_mean": 5.26,
+      "mae_median": 5.16,
+      "rmse_mean": 7.21,
+      "rmse_median": 7.28,
+      "median_ae_mean": 4.06,
+      "median_ae_median": 2.72,
+      "pearson_r_mean": 0.1397,
+      "pearson_r_median": 0.0854
+    },
+    "low_light": {
+      "n_sessions": 6,
+      "total_mutually_valid_windows": 62,
+      "mae_mean": 5.63,
+      "mae_median": 6.07,
+      "rmse_mean": 7.4,
+      "rmse_median": 7.46,
+      "median_ae_mean": 4.04,
+      "median_ae_median": 4.35,
+      "pearson_r_mean": 0.3172,
+      "pearson_r_median": 0.2802
+    }
+  }
+}
