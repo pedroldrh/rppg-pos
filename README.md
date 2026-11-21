@@ -6,7 +6,7 @@ Uses the POS algorithm (Wang et al., 2017) to estimate heart rate from facial vi
 
 > **No trained model.** This is a classical signal-processing pipeline (POS, implemented from scratch in NumPy + MediaPipe face mesh). The only weights are MediaPipe's off-the-shelf face landmarker. That means it runs on any face video with no training data.
 
-**Live demo:** https://huggingface.co/spaces/pedroldrh/rppg-pos  ·  **Report (PDF):** https://pedroldrh.xyz/assets/circadify-rppg-results.pdf
+**Report (PDF):** https://pedroldrh.xyz/assets/circadify-rppg-results.pdf
 
 ## Analyze any video
 
